@@ -1,0 +1,15 @@
+name = "shopify-demo-app"
+type = "webpack"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+webpack_config = "webpack.config.js"
+
+kv_namespaces = [
+  { binding = "DB", id = "", preview_id = "" }
+]
+
+[site]
+bucket = "./dist/app"
+entry-point = "./dist/"
